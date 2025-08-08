@@ -5,19 +5,20 @@ import { Icon } from "astro-icon/components";
 
 const EXPERIENCE = [
   {
-    date: "2021 - Present",
-    title: "Software Development Coordinator",
-    company: "EFEELE.DEV",
+    date: "2024 - 2025",
+    title: "Développeur Web & Coordinateur de Projet (projets personnels)",
+    company: "RICCA Jordan",
     description:
-      "I lead the planning, development, and implementation of software projects to optimize administrative processes and improve digital services. I manage and provide support for technology platforms, coordinating development teams to deliver efficient solutions.",
+      "Conception et développement d’un site web complet dédié au catalogue de jeux Dreamcast, intégrant recherche, avis utilisateurs et gestion de contenu. Organisation et gestion autonome du projet, planification des étapes et coordination des ressources nécessaires. Application des bonnes pratiques de développement web modernes (HTML, CSS, JavaScript, Symfony). Formation professionnelle suivie en 2024 au PôleS, avec acquisition de compétences solides en développement web et gestion de projets numériques.",
+      
   },
-  {
-    date: "2019 - 2020",
-    title: "Software Development Coordinator",
-    company: "EFEELE.DEV",
-    description:
-      "I lead the planning, development, and implementation of software projects to optimize administrative processes and improve digital services. I manage and provide support for technology platforms, coordinating development teams to deliver efficient solutions.",
-  },
+  // {
+  //   date: "2019 - 2020",
+  //   title: "Software Development Coordinator",
+  //   company: "EFEELE.DEV",
+  //   description:
+  //     "I lead the planning, development, and implementation of software projects to optimize administrative processes and improve digital services. I manage and provide support for technology platforms, coordinating development teams to deliver efficient solutions.",
+  // },
 ];
 ---
 
@@ -25,10 +26,10 @@ const EXPERIENCE = [
   <div class="flex flex-col pt-8 max-w-4xl mx-auto">
     <div class="flex gap-4 items-center justify-center">
       <Icon class="text-3xl dark:text-white text-blacktext" name="briefcase" />
-      <Heading text="Work" textGradient="Experience" level={2} />
+      <Heading text="Expériences" textGradient="professionnelles" level={2} />
     </div>
 
-    <div class="relative max-md:mt-0 mt-8" aria-label="Professional experience">
+    <div class="relative max-md:mt-0 mt-8" aria-label="Expériences professionnelles">
       <ol class="relative mt-10">
         {
           EXPERIENCE.map((experience, index) => (

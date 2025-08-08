@@ -15,8 +15,8 @@ const routes = ["/", "/portfolio", "/about-me"];
 const isActiveRoute = routes.includes(currentPath);
 
 const navItems = isActiveRoute
-  ? ["home", "experience", "projects", "about", "blog"]
-  : ["home", "blog", "about"]; // Change the items
+  ? ["home", "experience", "projects", "about"]
+  : ["home", "about"]; // Change the items
 ---
 
 <header
@@ -30,7 +30,7 @@ const navItems = isActiveRoute
     <a href="/" aria-label="Direction l'accueil">
       <img
         src="/images/JR.png"
-        alt="Logo"
+        alt="Logo JR noir avec des contours blancs"
         class="h-12 cursor-pointer transition-all hover:opacity-80"
       />
     </a>
