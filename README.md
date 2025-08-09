@@ -1,58 +1,37 @@
 
-# NeonMint Template Documentation
+## 🎯 Aperçu
 
-![neonmint](https://github.com/user-attachments/assets/ae539704-2292-492f-882c-c90595b34717)
-
-## 🎯 Overview
-
-**NeonMint** is a minimalist and modern template designed for developers and digital creatives. Its dark-toned aesthetic with mint green accents offers a clean, elegant, and functional visual experience, ideal for portfolios, dashboards, or tech landing pages.
+**Green** C’est un template minimaliste et moderne conçu pour les développeurs et créatifs numériques. Son esthétique sombre, agrémentée d’accents vert menthe, offre une expérience visuelle épurée, élégante et fonctionnelle, idéale pour les portfolios, tableaux de bord ou pages d’accueil orientées technologie.
 
 ## 📁 Project Structure
 
 ```bash
-└── 📁NeonMint
+└── 📁Green
     └── 📁public
-        ├── android-chrome-192x192.png
-        ├── android-chrome-512x512.png
-        ├── apple-touch-icon.png
-        ├── favicon-16x16.png
-        ├── favicon-32x32.png
-        ├── favicon.ico
+        ├── icônes et images globales
         └── 📁images
-            ├── 📁posts    # Post images
-            └── 📁projects # Project images
-        └── site.webmanifest # PWA configuration file
+            ├── 📁projects # Images des projets
+        └── site.webmanifest # Configuration PWA
     └── 📁src
-        ├── 📁components  # Reusable UI components
-        │   ├── 📁blog    # Blog components
-        │   ├── 📁layout  # Layout components
-        │   ├── 📁portfolio # Portfolio components
-        │   └── 📁ui      # UI components
-        ├── 📁icons       # Icons (.svg)
-        ├── 📁layouts     # Site layouts
-        │   ├── Layout.astro           # Main application layout
-        │   ├── MarkdownAbout.astro    # About-me page layout
-        │   ├── MarkdownPostLayout.astro # Posts page layout
-        │   └── ProjectLayout.astro    # Projects page layout
-        ├── 📁pages       # Site pages
-        │   ├── about-me.md            # About-me page
-        │   ├── 📁blog   # All posts page
-        │   │   ├── index.astro        # Blog home page
-        │   │   ├── 📁posts            # Blog posts
-        ├── │   ├── └── index.astro     # All posts page
-        │   │   ├── 📁tags             # Blog tags
-        │   │   └── 📁techs            # Blog technologies
-        │   ├── index.astro            # Home page
+        ├── 📁components   # Composants réutilisables
+        │   ├── 📁layout   # Composants de structure
+        │   ├── 📁portfolio # Composants portfolio
+        │   └── 📁ui       # Composants UI
+        ├── 📁icons        # Icônes (.svg)
+        ├── 📁layouts      # Layouts du site
+        ├── 📁pages        # Pages principales
+        │   ├── about-me.md # Page "À propos"
+        │   ├── index.astro # Page d’accueil
         │   ├── 📁portfolio
-        │   │   └── 📁projects         # Portfolio projects
-        │   ├── robots.txt.ts          # robots.txt configuration
-        │   └── rss.xml.js             # RSS configuration
+        │   │   └── 📁projects # Projets du portfolio
+        │   ├── robots.txt.ts
+        │   └── rss.xml.js
         ├── 📁scripts
-        │   └── menu.js                # Menu script
+        │   └── menu.js    # Script du menu
         ├── 📁styles
-        │   └── global.css             # Global styles
+        │   └── global.css # Styles globaux
         └── 📁utils
-            └── languages.ts           # Technology tools configuration
+            └── languages.ts # Configurations des technologies
     ├── .gitignore
     ├── astro.config.mjs
     ├── package-lock.json
@@ -61,7 +40,7 @@
     └── tsconfig.json
 ```
 
-## 🛠️ Technology Stack
+## 🛠️ Stack Technique
 
 - **Framework**: Astro v5.6.1
 - **UI Library**: Preact v10.26.2
@@ -71,43 +50,20 @@
 - **Animations**: tailwindcss-animated v2.0.0
 - **Analytics**: @vercel/speed-insights v1.2.0
 
-## ✨ Key Features
-
-1. **🚀 Performance Optimized**
-   - Static site generation
-   - Partial hydration with Preact
-   - Optimized images and assets
-
-2. **💻 Modern Development Experience**
-   - TypeScript support
-   - Hot module replacement
-   - ESLint integration
-
-3. **🔍 SEO & Analytics**
-   - Built-in sitemap generation
-   - RSS feed support
-   - Vercel Speed Insights
-
-4. **🎨 Styling & UI**
-   - TailwindCSS for utility-first styling
-   - Animated components
-   - Responsive design
-   - Dark mode support
-
-## 🚀 Getting Started
+## 🚀 Lancer le projet
 
 1. **📦 Installation**
 
    ### 🚀**Astro Installation**
    ```bash
-   npm create astro@latest -- --template EFEELE/neonmint
+   npm create astro@latest -- --template oODjoOo/Green
    ```
    or
    ### 🔧**Manual Installation**
    
    #### Clone Repository
    ```bash
-   git clone https://github.com/EFEELE/NeonMint.git
+   git clone https://github.com/oODjoOo/Green.git
    ```
    #### Install Dependencies
    ```bash

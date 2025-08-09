@@ -4,11 +4,11 @@ import Header from "../components/layout/Header.astro";
 import Footer from "../components/layout/Footer.astro";
 import  SpeedInsights  from "@vercel/speed-insights/astro"
 const {
-  pageTitle = "NeonMint by EFEELE 🚀",
-  description = "Welcome to NeonMint by EFEELE, where I develop software and share knowledge.",
+  pageTitle = "Green par oODjooo 🚀",
+  description = "Bienvenue sur Green par oODjooo, où je développe des logiciels et partage des connaissances.",
   ogimage = {
     url: "/images/imagedefault.webp",
-    alt: "Default image of EFEELE",
+    alt: "Default image of Green",
   },
 } = Astro.props;
 
@@ -17,8 +17,7 @@ const SEO = {
   sitename: "Portfolio par oODjoOo",
   url: siteUrl,
   locale: "fr-FR",
-  author: "Jordan RICCA | EFEELE",
-  twitter: "@efeeledev",
+  author: "Jordan RICCA | oODjoOo",
 };
 
 
@@ -26,7 +25,7 @@ const twitterimage = `${siteUrl}${ogimage.url}`;
 ---
 
 <html
-  lang="en"
+  lang="fr"
   class="dark:bg-[#0E0E11] bg-mint-50/5 font-montserrat scroll-smooth"
 >
   <head>
@@ -58,7 +57,7 @@ const twitterimage = `${siteUrl}${ogimage.url}`;
     <meta property="og:locale" content={SEO.locale} />
     
 
-    <!-- Twitter Cards -->
+    <!-- Twitter Cards
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={pageTitle} />
     <meta name="twitter:description" content={description} />
@@ -66,7 +65,7 @@ const twitterimage = `${siteUrl}${ogimage.url}`;
     <meta name="twitter:image:alt" content={ogimage.alt} />
     <meta name="twitter:site" content={SEO.twitter} />
   
-    <meta name="theme-color" content="#0E0E11"/>
+    <meta name="theme-color" content="#0E0E11"/> -->
 
     <!-- Sitemap -->
     <link rel="sitemap" href="/sitemap-index.xml" />

@@ -110,6 +110,10 @@ export const languages: Record<string, Language> = {
     name: "Python",
     iconName: "python",
   },
+  symfony: {
+    name: "Symfony",
+    iconName: "symfony",
+  },
 };
 
 export const getLanguage = (lang: string): Language => {
