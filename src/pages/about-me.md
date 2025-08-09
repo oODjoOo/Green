@@ -4,7 +4,7 @@ title: "Jordan RICCA | Mon Parcours dans le Développement Web | oODjoOo"
 description: "Développeur web, passionné de technologies. Depuis mes débuts dans le développement jusqu’à la création de communautés et de projets impactants, je partage ici mon parcours, mes expériences et ce que j’ai appris en chemin."
 author: "Jordan RICCA"
 image:
-  url: "/images/JordanProfil_resultat.webp"
+  url: "/Green/images/JordanProfil_resultat.webp"
   alt: "Photo de Jordan RICCA (oODjoOo) pour le portfolio"
 ---
 

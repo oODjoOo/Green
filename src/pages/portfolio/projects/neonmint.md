@@ -5,7 +5,7 @@ title: 'Projet_Dreamcast'
 description: 'Projet_Dreamcast est un site web dédié à la console Dreamcast, permettant aux utilisateurs et visiteurs de consulter un catalogue complet de jeux, de rechercher des titres, et de lire ou publier des avis et commentaires. Il intègre un système d’inscription et de connexion pour gérer les profils utilisateurs et permet aux administrateurs de gérer le contenu et les utilisateurs.'
 languages: ["html", "css", "php", "javascript","symfony","figma"]
 image:
-  url: "/images/projects/Dreamcast.webp"
+  url: "/Green/images/projects/Dreamcast.webp"
   alt: "Thumbnail of Projet_Dreamcast."
 --- 
 

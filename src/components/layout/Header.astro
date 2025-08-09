@@ -9,7 +9,7 @@ const [staticData] = await getCollection("staticData");
 const { github, githubIconName, linkedin, linkedinIconName } = staticData.data;
 
 const currentPath = Astro.url.pathname;
-const routes = ["/", "/portfolio", "/about-me"];
+const routes = ["/Green/", "/Green/portfolio", "/Green/about-me"];
 
 // Check if the current route is in the list of routes
 const isActiveRoute = routes.includes(currentPath);
@@ -27,9 +27,9 @@ const navItems = isActiveRoute
   <div
     class="relative mx-auto flex max-w-7xl flex-row items-center justify-between max-xl:px-6"
   >
-    <a href="/" aria-label="Direction l'accueil">
+    <a href="/Green/" aria-label="Direction l'accueil">
       <img
-        src="/images/JR.png"
+        src="/Green/images/JR.png"
         alt="Logo JR noir avec des contours blancs"
         class="h-12 cursor-pointer transition-all hover:opacity-80"
       />
