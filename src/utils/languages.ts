@@ -114,6 +114,14 @@ export const languages: Record<string, Language> = {
     name: "Symfony",
     iconName: "symfony",
   },
+  docker: {
+    name: "Docker",
+    iconName: "docker",
+  },
+  canva: {
+    name: "Canva",
+    iconName: "canva",
+  },
 };
 
 export const getLanguage = (lang: string): Language => {

@@ -1,6 +1,6 @@
 ---
 layout: /src/layouts/MarkdownAbout.astro
-title: "Jordan RICCA | Mon Parcours dans le Dévelopement Web | oODjoOo"
+title: "Jordan RICCA | Mon Parcours dans le Développement Web | oODjoOo"
 description: "Développeur web, passionné de technologies. Depuis mes débuts dans le développement jusqu’à la création de communautés et de projets impactants, je partage ici mon parcours, mes expériences et ce que j’ai appris en chemin."
 author: "Jordan RICCA"
 image:
