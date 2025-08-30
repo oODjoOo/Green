@@ -23,7 +23,7 @@ Ce qui n’était au début qu’une curiosité est devenu une passion, puis un 
 
 ## Titres 👑
 
-🏆 Titre professionnel DWWM (en cours)
+🏆 Titre professionnel DWWM
 
 🎓 PoleS – Certification professionnelle
 
